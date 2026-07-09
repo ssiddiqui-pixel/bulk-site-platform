@@ -1,0 +1,123 @@
+{
+  "topbar_parts": ["21+ only", "Free to play, always", "Fresh reel games every month"],
+  "disclaimer": "Cinderpeak Arcade is pure arcade entertainment and nothing more. Every reel game here is played for fun only, with no monetary value at stake and nothing of worth to gain or lose. There is nothing to purchase, stake, or trade, and how you fare on our spinners carries no meaning outside the screen and never implies success at anything involving real-world currency. Access is strictly limited to adults aged 21 and over. Certain third-party titles may be limited in some regions. Please play in moderation, take breaks often, and keep it lighthearted.",
+  "stats": [
+    {"n": "40+", "l": "Retro reel games"},
+    {"n": "6", "l": "Neon flagship titles"},
+    {"n": "100%", "l": "Free to play"},
+    {"n": "24/7", "l": "Arcade never sleeps"}
+  ],
+  "features": [
+    {"icon": "bolt", "title": "Instant Neon Play", "desc": "Hit start and you are spinning in seconds. No downloads, no fuss, just pixel-bright reel games loading straight in your browser like the arcade of old."},
+    {"icon": "device", "title": "Pocket To Big Screen", "desc": "Our spinners scale from phone to desktop without dropping a frame. Grab a quick round on the bus or go full-screen at home, controls stay crisp everywhere."},
+    {"icon": "star", "title": "Handpicked Titles", "desc": "We curate every game like true arcade nerds. Only the punchiest, most colorful reel games make our cabinet lineup, refreshed with new drops every single month."},
+    {"icon": "music", "title": "Chiptune Energy", "desc": "Every spin comes wrapped in glowing colors and toe-tapping retro soundtracks. It is the buzzing arcade atmosphere of 1989 rebuilt for your screen today."}
+  ],
+  "howto": [
+    {"title": "Pick Your Cabinet", "desc": "Browse the neon lineup and tap any game that catches your eye. Everything loads free and instantly, so hop between spinners as much as you like."},
+    {"title": "Hit Spin", "desc": "Press the big glowing button and watch the reels roll. Line up matching symbols to trigger feature rounds and free rounds full of flashing pixel fun."},
+    {"title": "Chase High Scores", "desc": "Rack up your best runs, unlock feature rounds, and share your favorite titles with pals. It is all for laughs, bragging rights, and pure arcade joy."}
+  ],
+  "categories": [
+    {"title": "Jungle And Legends", "desc": "Ancient temples and misty ruins collide with neon flair. These reel games send you deep into pixel adventures brimming with idols, artifacts, and glowing feature rounds."},
+    {"title": "Wild Creature Reels", "desc": "Snappy critters and fierce beasts headline these spinners. Expect bold colors, lively animations, and collecting symbols across fast, feature-packed rounds built for grins."},
+    {"title": "Action And Espionage", "desc": "High-octane missions and battlefield thrills power this lineup. Spin through explosive themes, cinematic flair, and free rounds that keep the retro adrenaline pumping nonstop."}
+  ],
+  "values": [
+    {"icon": "heart", "title": "Made With Passion", "desc": "We are a scrappy indie crew of arcade obsessives building the joint we always wished existed. Every pixel and sound effect is crafted with genuine love for the game."},
+    {"icon": "shield", "title": "Safe And Honest", "desc": "No tricks, no traps, no hidden catches. Just free, transparent fun for grown-ups who want to relive that classic arcade rush without any strings attached whatsoever."},
+    {"icon": "users", "title": "Built For Players", "desc": "Your feedback steers our roadmap. We listen to the community, tweak our spinners, and add fresh titles because this arcade belongs to everyone who plays here."}
+  ],
+  "faq": [
+    {"q": "Is Cinderpeak Arcade really free?", "a": "Absolutely, one hundred percent free from start to finish. Every reel game on our cabinet loads without a single charge, and there is nothing to buy at any point. We are here purely for the joy of retro arcade play, so grab a title and start spinning whenever the mood strikes you."},
+    {"q": "Do I need to download anything?", "a": "Nope, not a thing. All of our spinners run directly inside your web browser, so there are no clunky installs, updates, or storage worries to deal with. Just open the page on your phone, tablet, or computer, tap a game, and you are instantly dropped into the neon action."},
+    {"q": "How old do I have to be to play?", "a": "You must be at least 21 years of age to enjoy Cinderpeak Arcade. Our content is designed strictly for adults, and we take that limit seriously. If you are not yet 21, we kindly ask that you come back once you have reached the required age to join in the fun."},
+    {"q": "Can I lose anything by playing?", "a": "Not at all. There is nothing of monetary value involved anywhere on our arcade. You cannot stake, gain, or lose anything of worth here. Our reel games exist for entertainment alone, so every spin is a stress-free, lighthearted romp with zero real-world stakes attached to any outcome you land."},
+    {"q": "What kinds of games are here?", "a": "We specialize in vibrant reel games and spinners bursting with retro charm. Think jungle legends, wild creatures, and action-packed espionage themes, all wrapped in glowing pixel art and chiptune soundtracks. New titles roll onto the cabinet every month, so the lineup keeps growing and staying fresh for you."},
+    {"q": "Do the games work on my phone?", "a": "They sure do. Our spinners are built to scale smoothly across phones, tablets, and desktops without losing a beat. The controls adjust to whatever screen you are holding, so you can enjoy the exact same crisp, colorful arcade experience whether you are at home or out and about."},
+    {"q": "Who makes Cinderpeak Arcade?", "a": "We are a small independent studio of lifelong arcade fanatics. We grew up feeding coins into glowing cabinets and wanted to recapture that magic online, minus any pressure. Every game we feature is chosen and polished by people who genuinely adore the retro era and want to share it with you."}
+  ],
+  "responsible": [
+    {"title": "Keep It Fun", "body": "Cinderpeak Arcade is built for pure enjoyment and nothing else. Treat every session like a quick trip to a neon arcade, a fun break from the day. If the spinning ever stops feeling playful, step away and come back later when it feels light again."},
+    {"title": "Watch The Clock", "body": "Time flies when the reels are rolling. Set yourself a sensible limit before you start and honor it. Use a timer or an alarm if you like. Taking regular breaks keeps the arcade feeling fresh, energizing, and enjoyable every single time you return for another round."},
+    {"title": "Balance Your Day", "body": "Our spinners are a treat, not a substitute for the good stuff in life. Make room for friends, family, work, sleep, and hobbies away from the screen. A healthy balance keeps the arcade fun as the cherry on top of a full and vibrant day."},
+    {"title": "Play With A Clear Head", "body": "Enjoy the games when you are relaxed and feeling good, not to escape stress or tough emotions. Our reel games are best savored in a calm, upbeat mood. If you are feeling low, reach out to a friend rather than chasing distraction on the cabinet."},
+    {"title": "Reach Out If Needed", "body": "If gaming ever begins to feel less like fun and more like a pull you cannot control, please talk to someone you trust or contact a local support service. There is no shame in asking for help, and taking a longer break is always perfectly fine."}
+  ],
+  "game_features": [
+    "Instant browser play, no download required",
+    "Smooth on phone, tablet, and desktop",
+    "Vibrant pixel art with retro chiptune sound",
+    "Feature rounds and free rounds packed with flair"
+  ],
+  "game_meta": {
+    "aztec-idols": {
+      "category": "Jungle",
+      "tags": ["ancient", "temple", "adventure"],
+      "tips": ["Line up matching idols to trigger the glowing feature rounds",
+               "Explore every reel run for hidden temple symbols and surprises",
+               "Take it slow and soak up the pixel jungle vibe"]
+    },
+    "black-mamba": {
+      "category": "Creature",
+      "tags": ["snake", "fast", "fierce"],
+      "tips": ["Chase collecting symbols to keep the serpentine action rolling",
+               "Watch for the free rounds when the mamba strikes",
+               "Enjoy the slick animations, no rush to hit spin"]
+    },
+    "blazin-bullfrog": {
+      "category": "Creature",
+      "tags": ["frog", "fiery", "swamp"],
+      "tips": ["Stack matching frog symbols to spark the blazing feature rounds",
+               "Keep an eye on the pond for lively hidden extras",
+               "Turn up the sound for the full swampy retro buzz"]
+    },
+    "canine-carnage": {
+      "category": "Creature",
+      "tags": ["dogs", "wild", "high-energy"],
+      "tips": ["Collect the pack symbols to unleash the free rounds",
+               "Bright combos on the reels keep the carnage cheerful",
+               "Try quick sessions to enjoy the punchy pace"]
+    },
+    "battle-royal": {
+      "category": "Action",
+      "tags": ["battle", "arena", "combat"],
+      "tips": ["Match the arena symbols to charge up feature rounds fast",
+               "Every spin drops you into cinematic pixel combat flair",
+               "Play full-screen for the biggest battlefield spectacle"]
+    },
+    "agent-destiny": {
+      "category": "Espionage",
+      "tags": ["spy", "mission", "gadgets"],
+      "tips": ["Line up gadget symbols to launch the secret feature rounds",
+               "Follow the mission theme across each reel run",
+               "Soak in the espionage soundtrack for maximum spy thrills"]
+    }
+  },
+  "privacy_sections": [
+    {"h": "Information we collect", "b": "When you visit Cinderpeak Arcade, we gather only what keeps the cabinet humming. This includes basic technical details like your browser type, device, approximate region, and how you move through our reel games. If you email us, we hold onto whatever you choose to share so we can reply properly. We do not ask for sensitive personal details to play."},
+    {"h": "Cookies and analytics", "b": "Like most sites, we use small cookies and lightweight analytics tools to understand which spinners players love and where things could run smoother. These help us fix bugs and shape our monthly lineup. You are free to clear or block cookies through your browser settings at any time, though a few features may behave differently if you do."},
+    {"h": "How we use information", "b": "We put the data we collect to work improving your arcade experience, plain and simple. That means keeping games loading fast, spotting technical hiccups, planning fresh titles, and answering your questions when you reach out. We never use your information to pressure you or to sell you anything, because there is nothing here to sell."},
+    {"h": "Legal bases", "b": "We handle your information based on our legitimate interest in running a smooth, enjoyable arcade and on your consent where the law requires it, such as for certain cookies. Where you have given consent, you may withdraw it whenever you wish. We only process what is genuinely necessary to keep Cinderpeak Arcade running well for everyone."},
+    {"h": "Sharing your information", "b": "We keep your details close and do not trade or sell them, full stop. We share limited data only with trusted service partners who help us host the site, run analytics, or serve the games, and only under strict confidentiality. We may also disclose information if the law formally compels us to do so, but never casually."},
+    {"h": "Data retention", "b": "We hold onto your information only for as long as it serves a clear purpose, such as keeping the arcade functioning or meeting legal duties. Once that need passes, we securely delete or anonymize it. Technical logs are typically cleared on a rolling basis, and correspondence is kept only as long as it stays useful."},
+    {"h": "Your rights", "b": "Depending on where you live, you may have the right to see the information we hold about you, correct mistakes, request deletion, or object to certain processing. We honor these requests gladly and promptly. Just drop us a line using the contact details below, and we will guide you through the steps clearly and without hassle."},
+    {"h": "Adults only", "b": "Cinderpeak Arcade is intended solely for adults aged 21 and over, and our privacy practices reflect that. We do not knowingly gather information from anyone below that age. If we learn that a younger person has slipped through, we will remove their details swiftly. Please respect this limit and keep the arcade an adults-only space."},
+    {"h": "Security", "b": "We guard your information with sensible technical and organizational safeguards, including encrypted connections and restricted internal access. While no online system can promise perfect protection, we work hard to keep your data safe and to respond quickly should anything ever go wrong. Keeping your trust is a responsibility our little studio takes to heart."},
+    {"h": "Changes to this policy", "b": "As our arcade grows and adds new titles, this policy may need the occasional refresh. When we make meaningful updates, we will post the revised version here with a new date at the top. We encourage you to glance over it now and then so you always know how we handle your information."},
+    {"h": "Contact us", "b": "Questions, concerns, or just want to chat about our privacy practices? We are happy to hear from you. Reach out through the contact form or email address listed on our site, and a real member of our indie team will get back to you as promptly as we possibly can."}
+  ],
+  "terms_sections": [
+    {"h": "Eligibility", "b": "To use Cinderpeak Arcade you must be at least 21 years old and legally permitted to access this kind of entertainment where you live. By spinning up any of our games, you confirm that you meet this age requirement. If you do not, we ask that you leave the site and return only once you qualify."},
+    {"h": "Nature of the service", "b": "Cinderpeak Arcade offers free, browser-based reel games created purely for fun. Nothing on this site carries monetary value, and there is nothing to purchase, stake, trade, or gain of any real worth. How you perform on our spinners is meaningless beyond the screen and should never be treated as anything more than a bit of playful arcade entertainment."},
+    {"h": "Acceptable use", "b": "Please enjoy our arcade in good spirit. Do not attempt to hack, disrupt, overload, or reverse-engineer the site or its games. Do not scrape our content, misuse our systems, or interfere with other players' experience. We reserve the right to limit or remove access for anyone who abuses the service or acts in bad faith here."},
+    {"h": "Intellectual property", "b": "The Cinderpeak Arcade name, logo, artwork, text, and overall design belong to us or our licensing partners and are protected by law. You are welcome to enjoy them on our site, but you may not copy, redistribute, or repurpose our materials without our written say-so. The individual games remain the property of their respective creators."},
+    {"h": "Third-party games", "b": "Some titles on our cabinet are supplied by third-party developers. While we handpick each one, we do not control their inner workings and cannot guarantee they will always be flawless or available everywhere. Certain games may be limited in specific regions. Your use of those titles may also fall under the developer's own terms in addition to ours."},
+    {"h": "Disclaimers", "b": "Cinderpeak Arcade is provided as-is, without any warranty that it will always run perfectly or uninterrupted. We pour real care into the site, but occasional downtime, bugs, or quirks are part of the deal with any online arcade. We make no promises beyond offering free, lighthearted entertainment for adults who want a nostalgic good time."},
+    {"h": "Limitation of liability", "b": "To the fullest extent the law allows, we are not liable for any loss or inconvenience arising from your use of Cinderpeak Arcade. Since our games hold no monetary value and involve nothing of real worth, there is nothing financial to lose here anyway. Use the arcade at your own discretion, purely for the enjoyment it is meant to bring."},
+    {"h": "Changes to the service", "b": "We are always tinkering under the hood, adding titles, retiring others, and polishing features to keep the arcade lively. That means we may change, pause, or discontinue parts of the service at any time without prior notice. We will try to keep disruption minimal, but we cannot promise every game will stick around forever."},
+    {"h": "Termination", "b": "We may suspend or end your access to Cinderpeak Arcade if you break these terms or misuse the site in any way. You are equally free to stop using the arcade whenever you please, no notice needed. Since everything here is free, walking away costs you nothing, and you are always welcome back later."},
+    {"h": "Governing law", "b": "These terms are governed by the laws of the jurisdiction in which our studio operates, without regard to conflict-of-law principles. Any dispute that cannot be settled amicably will be handled by the competent courts of that jurisdiction. We always prefer a friendly conversation first, so please reach out before anything ever escalates that far."},
+    {"h": "Contact us", "b": "Got a question about these terms or anything else about the arcade? We would genuinely love to hear from you. Use the contact form or email address posted on our site, and a real human from our small indie team will do their best to reply quickly and helpfully."}
+  ]
+}

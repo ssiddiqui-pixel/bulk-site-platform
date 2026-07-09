@@ -1,0 +1,54 @@
+{
+  "themes": [
+    "Aurora Lounge",
+    "Ember Summit",
+    "Tidal Bay"
+  ],
+  "primary_hexes": [
+    "#6C4AB6",
+    "#E2571E",
+    "#0E7C86"
+  ],
+  "voices_used_by_batch": [
+    "cozy-lounge",
+    "arcade-retro",
+    "tropical-breeze"
+  ],
+  "story_angles_used_by_batch": [
+    "founded-by-friends",
+    "indie-studio-passion",
+    "remote-team-worldwide"
+  ],
+  "testimonial_combos": [
+    "Ayla B.",
+    "Kian D.",
+    "Mira F.",
+    "Remi H.",
+    "Noor K.",
+    "Teo M.",
+    "Suki P.",
+    "Joss R.",
+    "Zara T."
+  ],
+  "batches": [
+    {
+      "batch_id": "batch-001",
+      "date": "2026-07-09",
+      "sites": [
+        "lumen-play",
+        "cinderpeak-arcade",
+        "driftwave-games"
+      ],
+      "layouts": [
+        "hero-split",
+        "cards-grid-first",
+        "single-scroll-anchor"
+      ],
+      "typography": [
+        "Poppins + Lora",
+        "Montserrat + Merriweather",
+        "Nunito + Bitter"
+      ]
+    }
+  ]
+}

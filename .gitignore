@@ -1,0 +1,18 @@
+# python
+__pycache__/
+*.pyc
+dashboard/.venv/
+.venv/
+
+# generated output
+builds/
+dashboard/output/
+*.zip
+
+# secrets — never commit API keys
+.env
+*.key
+
+# os
+.DS_Store
+*.log

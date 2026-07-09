@@ -1,0 +1,26 @@
+{
+  "lumen-play": {
+    "brand": "Lumen Play",
+    "status": "qa-passed",
+    "batch": "batch-001",
+    "build_path": "builds/lumen-play",
+    "domain": null,
+    "pages_url": null
+  },
+  "cinderpeak-arcade": {
+    "brand": "Cinderpeak Arcade",
+    "status": "qa-passed",
+    "batch": "batch-001",
+    "build_path": "builds/cinderpeak-arcade",
+    "domain": null,
+    "pages_url": null
+  },
+  "driftwave-games": {
+    "brand": "Driftwave Games",
+    "status": "qa-passed",
+    "batch": "batch-001",
+    "build_path": "builds/driftwave-games",
+    "domain": null,
+    "pages_url": null
+  }
+}
