@@ -1,6 +1,6 @@
 """Local dashboard: paste up to 10 domains -> build 10 sites -> download one ZIP.
 Run:  ANTHROPIC_API_KEY=sk-... python3 dashboard/app.py   (then open http://localhost:5001)"""
-import os, sys, threading, traceback, time
+import os, sys, threading, traceback, time, base64
 from flask import Flask, request, jsonify, send_file, Response
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -10,11 +10,31 @@ import pipeline
 app = Flask(__name__)
 OUT = os.path.join(HERE, "output"); os.makedirs(OUT, exist_ok=True)
 JOBS = {}   # job_id -> {state, log:[], sites:[], error, zip, qa}
+BUILD_LOCK = threading.Lock()   # serialize builds (shared state files) — one batch at a time
+
+# Optional password gate for hosted deployments. If DASHBOARD_PASSWORD is set, every
+# request must send HTTP Basic auth with that password (username ignored). Unset = open (local).
+AUTH_PW = os.environ.get("DASHBOARD_PASSWORD")
+
+@app.before_request
+def _gate():
+    if not AUTH_PW:
+        return
+    hdr = request.headers.get("Authorization", "")
+    if hdr.startswith("Basic "):
+        try:
+            _, pw = base64.b64decode(hdr[6:]).decode("utf-8").split(":", 1)
+            if pw == AUTH_PW:
+                return
+        except Exception:
+            pass
+    return Response("Login required", 401, {"WWW-Authenticate": 'Basic realm="Bulk Site Builder"'})
 
 def log(job, msg): JOBS[job]["log"].append(msg)
 
 def run_job(job, domains, api_key):
     J = JOBS[job]
+    BUILD_LOCK.acquire()  # serialize: builds share state/ files, so run one batch at a time
     try:
         J["state"]="running"; log(job, f"Assigning a unique manifest for {len(domains)} site(s)…")
         manifest = pipeline.assign_manifest(domains)
@@ -38,6 +58,8 @@ def run_job(job, domains, api_key):
     except Exception as ex:
         J["state"]="error"; J["error"]=str(ex); log(job, f"ERROR: {ex}")
         traceback.print_exc()
+    finally:
+        BUILD_LOCK.release()
 
 @app.route("/api/build", methods=["POST"])
 def build():

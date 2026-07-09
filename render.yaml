@@ -1,0 +1,19 @@
+# Render blueprint — deploys the dashboard as a public web service.
+# In Render: New + → Blueprint → pick this repo. Then set the two secret env vars.
+services:
+  - type: web
+    name: bulk-site-builder
+    runtime: python
+    plan: free
+    buildCommand: pip install -r dashboard/requirements.txt
+    # single worker so in-memory job state is shared; long timeout for multi-site builds
+    startCommand: gunicorn --chdir dashboard app:app -w 1 --threads 4 -b 0.0.0.0:$PORT --timeout 900
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: ANTHROPIC_API_KEY   # your Claude key — set as a secret in the Render dashboard
+        sync: false
+      - key: DASHBOARD_PASSWORD  # shared password to access the app (leave unset = open to anyone)
+        sync: false
+      - key: DASHBOARD_MODEL
+        value: claude-sonnet-4-6

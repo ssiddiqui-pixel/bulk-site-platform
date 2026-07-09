@@ -1,19 +1,20 @@
 {
-  "batch_id": "batch-001",
+  "batch_id": "dash-3",
   "sites": [
     {
-      "brand": "Lumen Play",
-      "slug": "lumen-play",
-      "theme": "Aurora Lounge",
+      "brand": "Playvictoryzone",
+      "slug": "playvictoryzone",
+      "domain": "PlayVictoryZone.com",
+      "theme": "Ember Lounge",
       "palette": {
-        "primary": "#6C4AB6",
-        "secondary": "#8D72E1",
-        "accent": "#B9E0FF",
-        "background": "#F5F3FF"
+        "primary": "#C0392B",
+        "secondary": "#E67E22",
+        "accent": "#2C3E50",
+        "background": "#FDF3F0"
       },
-      "typography": "Poppins + Lora",
-      "layout": "hero-split",
-      "voice": "cozy-lounge",
+      "typography": "Montserrat + Merriweather",
+      "layout": "cards-grid-first",
+      "voice": "arcade-retro",
       "story": "founded-by-friends",
       "team": [
         "Harriet Vale",
@@ -21,147 +22,149 @@
         "Priya Nair"
       ],
       "testimonials": [
-        "Ayla B.",
-        "Kian D.",
-        "Mira F."
+        "Ayla D.",
+        "Ayla F.",
+        "Ayla H."
       ],
       "games": [
+        "*NSYNC Pop",
+        "15 Crystal Roses: A Tale of Love",
         "24K Dragon",
-        "Athena Ascending",
-        "Banana Rock",
-        "Bell of Fortune",
-        "Boat Bonanza",
-        "Bugs Party"
+        "3 Clown Monty",
+        "3 Clown Monty II",
+        "5x Magic"
       ],
       "games_resolved": [
+        {
+          "name": "*NSYNC Pop",
+          "slug": "nsync-pop",
+          "image": "nsync-pop.webp"
+        },
+        {
+          "name": "15 Crystal Roses: A Tale of Love",
+          "slug": "15-crystal-roses-a-tale-of-love",
+          "image": "15-crystal-roses--a-tale-of-love.webp"
+        },
         {
           "name": "24K Dragon",
           "slug": "24k-dragon",
           "image": "24k-dragon.webp"
         },
         {
-          "name": "Athena Ascending",
-          "slug": "athena-ascending",
-          "image": "athena-ascending.webp"
+          "name": "3 Clown Monty",
+          "slug": "3-clown-monty",
+          "image": "3-clown-monty.webp"
         },
         {
-          "name": "Banana Rock",
-          "slug": "banana-rock",
-          "image": "banana-rock.webp"
+          "name": "3 Clown Monty II",
+          "slug": "3-clown-monty-ii",
+          "image": "3-clown-monty-ii.webp"
         },
         {
-          "name": "Bell of Fortune",
-          "slug": "bell-of-fortune",
-          "image": "bell-of-fortune.webp"
-        },
-        {
-          "name": "Boat Bonanza",
-          "slug": "boat-bonanza",
-          "image": "boat-bonanza.webp"
-        },
-        {
-          "name": "Bugs Party",
-          "slug": "bugs-party",
-          "image": "bugs-party.webp"
+          "name": "5x Magic",
+          "slug": "5x-magic",
+          "image": "5x-magic.webp"
         }
       ]
     },
     {
-      "brand": "Cinderpeak Arcade",
-      "slug": "cinderpeak-arcade",
-      "theme": "Ember Summit",
+      "brand": "Epicspinfrontier",
+      "slug": "epicspinfrontier",
+      "domain": "EpicSpinFrontier.com",
+      "theme": "Tidal Summit",
       "palette": {
-        "primary": "#E2571E",
-        "secondary": "#F2A007",
-        "accent": "#2B2D42",
-        "background": "#FFF6EC"
+        "primary": "#2E86DE",
+        "secondary": "#54A0FF",
+        "accent": "#FECA57",
+        "background": "#EEF6FF"
       },
-      "typography": "Montserrat + Merriweather",
-      "layout": "cards-grid-first",
-      "voice": "arcade-retro",
-      "story": "indie-studio-passion",
+      "typography": "Nunito + Bitter",
+      "layout": "single-scroll-anchor",
+      "voice": "cozy-lounge",
+      "story": "remote-team-worldwide",
       "team": [
-        "Marco Ferreira",
-        "Lena Sundqvist",
-        "Ravi Chandra"
+        "Lena Ferreira",
+        "Ravi Sundqvist",
+        "Nina Chandra"
       ],
       "testimonials": [
-        "Remi H.",
-        "Noor K.",
-        "Teo M."
+        "Ayla K.",
+        "Ayla M.",
+        "Ayla P."
       ],
       "games": [
-        "Aztec Idols",
-        "Black Mamba",
-        "Blazin' Bullfrog",
-        "Canine Carnage",
-        "Battle Royal",
-        "Agent Destiny"
+        "7 Sins",
+        "Ace of Spades",
+        "Agent Destiny",
+        "Agent of Hearts",
+        "Alice Cooper and the Tome of Madness",
+        "Animal Madness"
       ],
       "games_resolved": [
         {
-          "name": "Aztec Idols",
-          "slug": "aztec-idols",
-          "image": "aztec-idols.webp"
+          "name": "7 Sins",
+          "slug": "7-sins",
+          "image": "7-sins.webp"
         },
         {
-          "name": "Black Mamba",
-          "slug": "black-mamba",
-          "image": "black-mamba.webp"
-        },
-        {
-          "name": "Blazin' Bullfrog",
-          "slug": "blazin-bullfrog",
-          "image": "blazin'-bullfrog.webp"
-        },
-        {
-          "name": "Canine Carnage",
-          "slug": "canine-carnage",
-          "image": "canine-carnage.webp"
-        },
-        {
-          "name": "Battle Royal",
-          "slug": "battle-royal",
-          "image": "battle-royal.webp"
+          "name": "Ace of Spades",
+          "slug": "ace-of-spades",
+          "image": "ace-of-spades.webp"
         },
         {
           "name": "Agent Destiny",
           "slug": "agent-destiny",
           "image": "agent-destiny.webp"
+        },
+        {
+          "name": "Agent of Hearts",
+          "slug": "agent-of-hearts",
+          "image": "agent-of-hearts.webp"
+        },
+        {
+          "name": "Alice Cooper and the Tome of Madness",
+          "slug": "alice-cooper-and-the-tome-of-madness",
+          "image": "alice-cooper-and-the-tome-of-madness.webp"
+        },
+        {
+          "name": "Animal Madness",
+          "slug": "animal-madness",
+          "image": "animal-madness.webp"
         }
       ]
     },
     {
-      "brand": "Driftwave Games",
-      "slug": "driftwave-games",
-      "theme": "Tidal Bay",
+      "brand": "Spinquestrealms",
+      "slug": "spinquestrealms",
+      "domain": "spinquestrealms.com",
+      "theme": "Midnight Bay",
       "palette": {
-        "primary": "#0E7C86",
-        "secondary": "#16C2A3",
-        "accent": "#FFD166",
-        "background": "#ECFBF9"
+        "primary": "#27AE60",
+        "secondary": "#2ECC71",
+        "accent": "#F1C40F",
+        "background": "#EEFBF2"
       },
-      "typography": "Nunito + Bitter",
-      "layout": "single-scroll-anchor",
-      "voice": "tropical-breeze",
-      "story": "remote-team-worldwide",
+      "typography": "Poppins + Lora",
+      "layout": "centered-minimal",
+      "voice": "esports-energy",
+      "story": "indie-studio-passion",
       "team": [
-        "Nina Alvarez",
-        "Tobias Berg",
-        "Amara Diallo"
+        "Amara Alvarez",
+        "Elias Berg",
+        "Sofia Diallo"
       ],
       "testimonials": [
-        "Suki P.",
-        "Joss R.",
-        "Zara T."
+        "Ayla R.",
+        "Ayla T.",
+        "Ayla W."
       ],
       "games": [
         "Ankh of Anubis",
-        "Baron: Lord of Saturday",
-        "Beasts of Fire",
-        "Ace of Spades",
-        "Alice Cooper and the Tome of Madness",
-        "Agent of Hearts"
+        "Ankh of Anubis Awakening",
+        "Annihilator",
+        "Athena Ascending",
+        "Aztec Idols",
+        "Aztec Warrior Princess"
       ],
       "games_resolved": [
         {
@@ -170,29 +173,29 @@
           "image": "ankh-of-anubis.webp"
         },
         {
-          "name": "Baron: Lord of Saturday",
-          "slug": "baron-lord-of-saturday",
-          "image": "baron--lord-of-saturday.webp"
+          "name": "Ankh of Anubis Awakening",
+          "slug": "ankh-of-anubis-awakening",
+          "image": "ankh-of-anubis-awakening.webp"
         },
         {
-          "name": "Beasts of Fire",
-          "slug": "beasts-of-fire",
-          "image": "beasts-of-fire.webp"
+          "name": "Annihilator",
+          "slug": "annihilator",
+          "image": "annihilator.webp"
         },
         {
-          "name": "Ace of Spades",
-          "slug": "ace-of-spades",
-          "image": "ace-of-spades.webp"
+          "name": "Athena Ascending",
+          "slug": "athena-ascending",
+          "image": "athena-ascending.webp"
         },
         {
-          "name": "Alice Cooper and the Tome of Madness",
-          "slug": "alice-cooper-and-the-tome-of-madness",
-          "image": "alice-cooper-and-the-tome-of-madness.webp"
+          "name": "Aztec Idols",
+          "slug": "aztec-idols",
+          "image": "aztec-idols.webp"
         },
         {
-          "name": "Agent of Hearts",
-          "slug": "agent-of-hearts",
-          "image": "agent-of-hearts.webp"
+          "name": "Aztec Warrior Princess",
+          "slug": "aztec-warrior-princess",
+          "image": "aztec-warrior-princess.webp"
         }
       ]
     }

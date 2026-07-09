@@ -16,3 +16,6 @@ dashboard/output/
 # os
 .DS_Store
 *.log
+
+# workflow file blocked by token scope — add via GitHub web UI
+.github/workflows/

@@ -34,6 +34,23 @@ For each domain you enter:
 ## Cost (rough)
 Each site ≈ one Claude call (~4–8k output tokens). A 10-site batch on Sonnet is typically well under ~$1; Opus is a few times that. Exact cost depends on current pricing.
 
+## Deploy it as a public URL (so others can use it) — Render
+GitHub only stores the code; to give people a link they can use, the app must *run* on a server.
+This repo includes `render.yaml` for one-click deploy on [Render](https://render.com) (free tier):
+
+1. Push this repo to GitHub (already done).
+2. Create a free Render account and connect your GitHub.
+3. **New + → Blueprint** → pick this repo → Render reads `render.yaml`.
+4. Set the secret env vars in the Render dashboard:
+   - `ANTHROPIC_API_KEY` — your Claude key (the app uses it for everyone).
+   - `DASHBOARD_PASSWORD` — a shared password; visitors must enter it (protects your credits). Leave unset = open to anyone.
+5. Deploy → you get `https://bulk-site-builder.onrender.com` (or your chosen name) to share.
+
+Notes for hosted mode:
+- Builds are serialized (one batch at a time) and run in a single worker so job status is consistent.
+- Render's free tier sleeps when idle and has an ephemeral disk — fine for build-and-download sessions; don't rely on it to store ZIPs long-term.
+- To let each visitor pay for their own usage instead of a shared password, ask and we can switch to a "bring your own key" input.
+
 ## Notes
 - Runs locally; your API key and game data never leave your machine.
 - Games load from Play'n Go's servers (third-party iframes) — they may show blank on `localhost` but render on a real deployed domain.
