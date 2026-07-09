@@ -2,6 +2,14 @@
 
 Batch-builds unique social gaming websites via Claude Code. 10 sites per batch, zero repetition, enforced by manifest + registry + cross-site QA.
 
+[![CI](https://github.com/ssiddiqui-pixel/bulk-site-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/ssiddiqui-pixel/bulk-site-platform/actions/workflows/ci.yml)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-informational.svg)
+
+![Bulk Site Builder dashboard](dashboard/preview.svg)
+
+> **Quick start (dashboard):** `ANTHROPIC_API_KEY=sk-ant-... ./dashboard/run.sh` → open <http://localhost:5001> → paste up to 10 domains → **Download ZIP**.
+
 ## Setup (once)
 1. Unzip this folder anywhere, e.g. `~/pipeline/`.
 2. Copy your assets in:
